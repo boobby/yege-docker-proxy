@@ -1,12 +1,13 @@
 name = "yege-docker-proxy"
 compatibility_date = "2023-12-01"
+main = "src/index.js"
 
 [dev]
 ip = "0.0.0.0"
 port = 8787
 local_protocol = "http"
 
-[env.vars]
+[vars]
 CUSTOM_DOMAIN = "libcuda.so"
 
 [env.dev.vars]
