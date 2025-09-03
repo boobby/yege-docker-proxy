@@ -1,12 +1,9 @@
 name = "yege-docker-proxy"
+main = "dist/main.js"
 compatibility_date = "2023-12-01"
 
 [build]
 command = "npm run build"
-
-[build.upload]
-format = "service-worker"
-main = "dist/main.js"
 
 [dev]
 ip = "0.0.0.0"
